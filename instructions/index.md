@@ -1,5 +1,5 @@
 ---
-title: Verzorging
+title: Care
 layout: instructions
 ---
 
