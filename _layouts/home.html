@@ -68,7 +68,7 @@
             <div class="col-xs-12 text-left">
                       <h2 class="post-title editable" style="margin: 0;">Care</h2>
                       
-                      <div><br />{% for thispage in site.pages %}{% if thispage.title == 'Care' %}{{ thispage.content }}{% endif %}{% endfor %}
+                      <div><br />{% for p in site.pages %}{% if p.title == 'Care' %}{{ p.content }}{% endif %}{% endfor %}
                       <br />&nbsp;</div>
             </div> 
         </div>
