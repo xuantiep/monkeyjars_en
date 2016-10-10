@@ -67,12 +67,15 @@
         <div class="row">
             <div class="col-xs-12 text-left">
                       <h2 class="post-title editable" style="margin: 0;">Care</h2>
+                      
+                      <div><br />{% for thispage in site.pages %}{% if thispage.title == 'Care' %}{{ thispage.content }}{% endif %}{% endfor %}
+                      <br />&nbsp;</div>
             </div> 
         </div>
       </div>
       <div class="container" style="padding: 0;">
         <div class="row" style="margin: 0; overflow: hidden;">
-          {% for instruction in site.instructions %}
+          {% for instruction in site.instructions limit:8 %}
             <div class="col-md-3 col-sm-4 col-xs-6" style="padding: 0; cursor: pointer;" onclick="window.location.href='/instructions';">
               <div style="background: url(/img/{{ instruction.order }}.png) center center no-repeat; background-size: contain;
               {% if instruction.order == 1 %}{% endif %}
