@@ -1,5 +1,5 @@
 ---
-title: Care
+title: Care tips
 layout: instructions
 ---
 
