@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id="body" class="page-template post" onload="">
+    <div id="nonsplash">
+    <div id="innernonsplash">
+	  {% include header.html %}
+
+
+    <div class="light" style="padding-top: 218px;">
+      <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-left">
+                      <h2 class="post-title" style="margin: 0 0 0;">{{ page.title }}</h2>
+            </div> 
+        </div>
+        <div class="row">
+          {% for instruction in site.instructions %}
+            <div class="col-lg-3 col-md-4 col-sm-5" style="max-width: 300px; padding: 0;">
+              <div style="background: url(/img/{{ instruction.order }}.png) center center no-repeat; background-size: contain;
+              {% if instruction.order == 1 %}{% endif %}
+              {% if instruction.order == 2 %}-ms-transform: rotate(-6deg); -webkit-transform: rotate(-6deg); transform: rotate(-6deg);{% endif %}
+              {% if instruction.order == 3 %}{% endif %}
+              {% if instruction.order == 4 %}-ms-transform: rotate(-3deg); -webkit-transform: rotate(-3deg); transform: rotate(-3deg);{% endif %}
+              {% if instruction.order == 5 %}-ms-transform: rotate(-3deg); -webkit-transform: rotate(-3deg); transform: rotate(-3deg);{% endif %}
+              {% if instruction.order == 6 %}-ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);{% endif %}
+              {% if instruction.order == 7 %}{% endif %}
+              {% if instruction.order == 8 %}-ms-transform: rotate(-6deg); -webkit-transform: rotate(-6deg); transform: rotate(-6deg);{% endif %}
+              ">
+              <div style="background: url(/img/{{ instruction.order }}.svg) 50% 46% no-repeat; background-size: contain; opacity: 0.85; padding-top:100%;
+              {% if instruction.order == 1 %}margin: 0 30%;{% endif %}
+              {% if instruction.order == 2 %}margin: 0 28%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(6deg);{% endif %}
+              {% if instruction.order == 3 %}margin: 0 23%; {% endif %}
+              {% if instruction.order == 4 %}margin: 0 31%; -ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);{% endif %}
+              {% if instruction.order == 5 %}margin: 0 30%; -ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);{% endif %}
+              {% if instruction.order == 6 %}margin: 0 30%; -ms-transform: rotate(-3deg); -webkit-transform: rotate(-3deg); transform: rotate(-3deg);{% endif %}
+              {% if instruction.order == 7 %}margin: 0 30%; {% endif %}
+              {% if instruction.order == 8 %}margin: 0 31%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(6deg);{% endif %}
+              "></div></div>
+            </div>
+            <div class="col-lg-3 col-md-8 col-sm-7 text-left" style="padding: 0 15px; margin-top: -30px;">
+              <br class="hidden-xs" /><br class="hidden-xs" />
+                <h3>{{ instruction.title }}</h3>
+                {{ instruction.content }}
+            </div>
+
+            {% if forloop.index == 2 or forloop.index == 4 or forloop.index == 6 or forloop.index == 8 %}
+            <div style="clear: both;"></div>
+            {% else %}
+            <div style="clear: both;" class="visible-sm visible-md"></div>
+            {% endif %}
+          {% endfor %}
+            <p><a href="/" class="readmore">TERUG</a></p>
+        </div>
+      </div>
+    </div>
+
+
+    {% include footer.html %}
+      </div>
+    </div>
+  </body>
+
+</html>

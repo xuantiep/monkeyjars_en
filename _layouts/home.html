@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body data-spy="scroll" data-target="#navbar" data-offset="300" class="home" onload="">
+  <div id="splash"><table cellpadding="0" cellspacing="0"><tr><td><img src="/img/logowhite.svg" /></td></tr></table></div>
+  <div id="nonsplash">
+    <div id="innernonsplash">
+  <script>document.getElementById('nonsplash').style.display = 'none';</script>
+    {% include header.html %}
+    <div id="top" class="intro">
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    {% for image in page.slider %}
+    <li data-target="#myCarousel" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.index0 == 0 %}active{% endif %}"></li>
+    {% endfor %}
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    {% for image in page.slider %}
+    <div class="item {% if forloop.index0 == 0 %}active{% endif %}">
+      <img  class="visible-lg" src="/img/bugfree.svg" style="top: 100px; left: 50%; width: 300px; margin-left: 250px; margin-top: 30px; position: absolute;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+      " />
+      <img src="{{ image.image }}" />
+    </div>
+    {% endfor %}
+
+  </div>
+
+</div>
+
+
+    </div>
+
+
+    <div class="light" id="over">
+      <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-left">
+                      <h2 class="post-title" style="margin: 0 0 35px;">Wat is Monkey Jars?</h2>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6"><img class="tapekaart" src="/img/tapekaart.png" style="width: 60%; position: absolute; margin-top: -5vw; margin-left: 30%;" /><img src="/img/plant.jpg" style="width: 100%;" /><br />&nbsp;</div>
+            <div class="col-lg-6 col-md-6 text-left">
+
+<p><strong>Officieel is Monkey Jars een variëteit van de Nepenthes. Nee,
+die naam zegt je vermoedelijk niks. Maar je hebt ongetwijfeld
+weleens gehoord van vleesetende planten. Nepenthes is er zo
+één. Ze groeien in tropische regenwouden, zoals die op Borneo.
+Daar zijn het klimplanten. Ze bereiken met een gemak een
+hoogte van wel 15 meter. (Schrik niet: als je Monkey Jars in huis
+haalt, hoef je het dak niet uit te bouwen!)</strong></p>
+<p>Die planten uit tropische oerwouden worden ook in Nederland
+geteeld. Ze groeien in Hollandse kassen onder hoge temperaturen
+en in een vochtig klimaat. Voordat een exemplaar van Monkey
+Jars in de winkel staat, heeft-ie al twee jaar lang doorgebracht
+in de kas. In de gemiddelde huiskamer overleeft-ie met gemak.
+Zeker als je niet te zuinig omspringt met de gieter.</p>
+
+<p><a href="/over" class="readmore">LEES MEER</a></p>
+
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="light" id="verzorging">
+      <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-left">
+                      <h2 class="post-title editable" style="margin: 0;">Verzorging</h2>
+            </div> 
+        </div>
+      </div>
+      <div class="container" style="padding: 0;">
+        <div class="row" style="margin: 0; overflow: hidden;">
+          {% for instruction in site.instructions %}
+            <div class="col-md-3 col-sm-4 col-xs-6" style="padding: 0; cursor: pointer;" onclick="window.location.href='/instructions';">
+              <div style="background: url(/img/{{ instruction.order }}.png) center center no-repeat; background-size: contain;
+              {% if instruction.order == 1 %}{% endif %}
+              {% if instruction.order == 2 %}-ms-transform: rotate(-6deg); -webkit-transform: rotate(-6deg); transform: rotate(-6deg);{% endif %}
+              {% if instruction.order == 3 %}{% endif %}
+              {% if instruction.order == 4 %}-ms-transform: rotate(-3deg); -webkit-transform: rotate(-3deg); transform: rotate(-3deg);{% endif %}
+              {% if instruction.order == 5 %}-ms-transform: rotate(-3deg); -webkit-transform: rotate(-3deg); transform: rotate(-3deg);{% endif %}
+              {% if instruction.order == 6 %}-ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);{% endif %}
+              {% if instruction.order == 7 %}{% endif %}
+              {% if instruction.order == 8 %}-ms-transform: rotate(-6deg); -webkit-transform: rotate(-6deg); transform: rotate(-6deg);{% endif %}
+              ">
+              <div style="background: url(/img/{{ instruction.order }}.svg) 50% 46% no-repeat; background-size: contain; opacity: 0.85; padding-top:100%;
+              {% if instruction.order == 1 %}margin: 0 30%;{% endif %}
+              {% if instruction.order == 2 %}margin: 0 28%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(6deg);{% endif %}
+              {% if instruction.order == 3 %}margin: 0 23%; {% endif %}
+              {% if instruction.order == 4 %}margin: 0 31%; -ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);{% endif %}
+              {% if instruction.order == 5 %}margin: 0 30%; -ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);{% endif %}
+              {% if instruction.order == 6 %}margin: 0 30%; -ms-transform: rotate(-3deg); -webkit-transform: rotate(-3deg); transform: rotate(-3deg);{% endif %}
+              {% if instruction.order == 7 %}margin: 0 30%; {% endif %}
+              {% if instruction.order == 8 %}margin: 0 31%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(6deg);{% endif %}
+              "></div></div>
+            </div>
+          {% endfor %}
+          </div>
+      </div>
+    </div>
+
+
+    <div class="light" id="weetjes">
+      <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-left">
+                      <h2 class="post-title" style="margin: 0 0 10px;">Weetjes</h2>
+            </div> 
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3"> 
+          {% for fact in site.facts %}
+            {% if forloop.index < 5 %}
+            <div style="overflow: auto; clear: left; text-align: left;">
+              <div style="font-family: 'Dirty Headline'; font-weight: normal; font-size: 31px; text-align: center; background: url(/img/{{ fact.title }}.png) center center no-repeat; background-size: contain; float: left; width: 60px; height: 100px; padding: 36px 0; position: relative; right: 5px;">{{ fact.title }}</div>
+              <div style="padding-top: 20px; position: relative; right: 5px;">{{ fact.content }}</div>
+            </div>
+            {% endif %}
+          {% endfor %}
+          </div>
+          <div class="col-lg-3 col-md-3" style="padding-left: 0 10px;"> 
+          {% for fact in site.facts %}
+            {% if forloop.index > 4 %}
+            <div style="overflow: auto; clear: left; text-align: left;">
+              <div style="font-family: 'Dirty Headline'; font-weight: normal; font-size: 31px; text-align: center; background: url(/img/{{ fact.title }}.png) center center no-repeat; background-size: contain; float: left; width: 60px; height: 100px; padding: 36px 0; position: relative; right: 5px;">{{ fact.title }}</div>
+              <div style="padding-top: 20px; position: relative; right: 5px;">{{ fact.content }}</div></div>
+            {% endif %}
+          {% endfor %}
+          </div>
+          <div class="col-lg-6 col-md-6"> 
+            <img class="monkeyjarweetjes" src="/img/monkeyjars_weetjes.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="light" id="contact">
+      <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-left">
+                
+                      <h2 class="post-title editable">Contact</h2>
+
+                      <p style="max-width: 850px;">Elke Monkey Jars komt bij JM Plants vandaan. JM Plants kweekt al meer dan 15 jaar Nepenthes en weten er echt alles van.
+Ze telen er niet alleen maar vleesetende planten. Ook in andere mooie grote groene planten is JM Plants gespecialiseerd.</p>
+            </div> 
+        </div>
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-lg-9 col-md-9 col-sm-8">   
+                <img class="tapekaart" src="/img/tapekaart.png" style="width: 60%; position: absolute; margin-top: -5vw; margin-left: -30%;" />                         
+                <div id="map" onclick="window.open('https://www.google.nl/maps/place/Meewisse+VOF+J+M+Plants/@52.2705475,4.716179,17z/data=!3m1!4b1!4m5!3m4!1s0x47c5e75fcb52143f:0x94af0545542deaa0!8m2!3d52.2705475!4d4.7183677');"><img src="/img/logo.svg" /></div>&nbsp;
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 text-left" style="font-size: 17px; line-height: 1.5em;">{% include contactinfo.html %}</div>
+          </div>
+      </div>
+    </div>
+
+
+
+
+   
+
+    {% include footer.html %}
+</div>
+  </body>
+
+</html>

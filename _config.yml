@@ -1,0 +1,13 @@
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: 'page'
+
+collections:
+  facts:
+    output: false
+  instructions:
+    output: false
+
+title: Monkey Jars

@@ -1,0 +1,67 @@
+  <div class="bgimage hidden-xs" id="gallery"><div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-xs-12 text-left">
+          <h2 class="post-title editable"># monkeyjars</h2>
+        </div> 
+      </div>
+      <div class="row" style="margin: 0 -5px; padding: 0;">
+        {% for image in site.data.images.images %}
+          <div class="col-sm-2 col-xs-4" style="padding: 0 5px;"><a href="https://www.instagram.com/monkey_jars/" target="_blank"><img src="//images.weserv.nl/?url=teal-falcon.cloudvent.net{{ image.image }}&w=180&h=180&t=square" style="width: 100%; margin-bottom: 10px;" /></a></div>
+        {% endfor %}
+
+        <div id="instafeed"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center hidden-xs">
+    <div class="textrow" style="padding:30px 0 120px; line-height: 1.2em;">There is no business, like monkey business</div>
+  </div>
+
+
+
+<footer>
+<div class="site-footer2">
+      <div class="container">
+        <div class="row" style="margin: 0">
+        	<div class="col-lg-12 text-center">
+            <form method="POST" action="/">
+  <input type="hidden" name="_to" value="jmplants@jmplants.nl">
+  <input type="hidden" name="_cc" value="jhvanderschee@gmail.com">
+  <input type="text" name="_gotcha" style="display: none;">
+              <input type="email" name="E-mail" placeholder="YOUR EMAIL ADDRESS" /><input type="submit" class="hidden-xs" value="Sign up" />
+            </form>
+          </div>
+        </div>
+      </div>
+    <div class="footerbar">
+      <div class="container">
+        <div class="row">
+        	<div class="col-lg-12 text-center"><p>Copyright © Monkey Jars 2016 &nbsp;&nbsp;•&nbsp;&nbsp; <span class="hidden-xs">Created by <a href="http://supremebeing.amsterdam" target="_blank">Supreme Being 21.3</a> &nbsp;&nbsp;•&nbsp;&nbsp; </span><a href="/privacy">Privacy</a></p></div>
+        </div>
+      </div>
+      </div>
+</div>
+</footer>
+
+</div>
+</div>
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{ "/js/combined.js" | prepend: site.baseurl }}"></script>
+    
+    <script>
+    //open external links in a new window
+    function externalLinks() {
+      for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+        var b = c[a];
+        b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+      }
+    }
+    externalLinks();
+    </script>
