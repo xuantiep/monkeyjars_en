@@ -2,10 +2,10 @@
 title: Wat is Monkey Jars?
 ---
 
-**Officieel is Monkey Jars een variëteit van de Nepenthes. Nee, die naam zegt je vermoedelijk niks. Maar je hebt ongetwijfeld weleens gehoord van vleesetende planten. Nepenthes is er zo één. Ze groeien in tropische regenwouden, zoals die op Borneo. Daar zijn het klimplanten. Ze bereiken met een gemak een hoogte van wel 15 meter. (Schrik niet: als je Monkey Jars in huis haalt, hoef je het dak niet uit te bouwen!)** 
+**Monkey Jars are officially known as Nepenthes. While you've probably never heard of this genus, you've undoubtedly heard of carnivorous plants. Well, that's exactly what Nepenthes is. These climbing plants grow in tropical rainforests like those found in Borneo. They can easily grow up to fifteen metres high. (Don't worry, you won't have to re-roof your house when you buy our Monkey Jars!)**
 
-Die planten uit tropische oerwouden worden ook in Nederland geteeld. Ze groeien in Hollandse kassen onder hoge temperaturen en in een vochtig klimaat. Voordat een exemplaar van Monkey Jars in de winkel staat, heeft-ie al twee jaar lang doorgebracht in de kas. In de gemiddelde huiskamer overleeft-ie met gemak. Zeker als je niet te zuinig omspringt met de gieter.
+These tropical plants can also be found in the Netherlands and are grown in hot and humid greenhouses around the country. Monkey Jars spend two years in a greenhouse before they are available in shops. They can easily survive and thrive in the average living room, especially if you give them a generous watering.
 
-### Decoratief voor in huis
+### Home decoration
 
-Met Monkey Jars haal je een stoere plant in huis. Kijk maar naar z’n uiterlijk: een brute vleeseter die vliegjes en insecten rauw lust. Monkey Jars is er in twee varianten; als hangplant en als staande plant. Koop je ‘m als staande plant? Dan is het waterreservoir al ingebouwd.
+To put it simply, Monkey Jars are extremely cool houseplants. Take a look at it for a second: it's a brutal, carnivorous plant that can devour insects raw. Monkey Jars are available in two varieties: as a hanging plant and as a standing floor plant. The floor plant variety has a built-in water reservoir.
