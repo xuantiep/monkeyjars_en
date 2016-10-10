@@ -1,5 +1,5 @@
 ---
-title: Wat is Monkey Jars?
+title: What are Monkey Jars?
 ---
 
 **Monkey Jars are officially known as Nepenthes. While you've probably never heard of this genus, you've undoubtedly heard of carnivorous plants. Well, that's exactly what Nepenthes is. These climbing plants grow in tropical rainforests like those found in Borneo. They can easily grow up to fifteen metres high. (Don't worry, you won't have to re-roof your house when you buy our Monkey Jars!)**
