@@ -1,5 +1,5 @@
 ---
-title: Verkooppunten
+title: Sales outlets
 ---
 
-Binnenkort zijn hier de verkooppunten beschikbaar.
+The available sales outlets will be added soon. 
