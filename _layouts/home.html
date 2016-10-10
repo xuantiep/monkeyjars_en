@@ -117,8 +117,8 @@
           {% for fact in site.facts %}
             {% if forloop.index < 5 %}
             <div style="overflow: auto; clear: left; text-align: left;">
-              <div style="font-family: 'Dirty Headline'; font-weight: normal; font-size: 31px; text-align: center; background: url(/img/{{ fact.title }}.png) center center no-repeat; background-size: contain; float: left; width: 60px; height: 100px; padding: 36px 0; position: relative; right: 5px;">{{ fact.title }}</div>
-              <div style="padding-top: 20px; position: relative; right: 5px;">{{ fact.content }}</div>
+              <div style="font-family: 'Dirty Headline'; font-weight: normal; font-size: 31px; text-align: center; background: url(/img/{{ fact.title }}.png) center bottom no-repeat; background-size: contain; float: left; width: 60px; height: 82px; padding: 36px 0 0; position: relative; right: 5px;">{{ fact.title }}</div>
+              <div style="padding-top: 20px; position: relative; right: 0px;">{{ fact.content }}</div>
             </div>
             {% endif %}
           {% endfor %}
@@ -127,8 +127,8 @@
           {% for fact in site.facts %}
             {% if forloop.index > 4 %}
             <div style="overflow: auto; clear: left; text-align: left;">
-              <div style="font-family: 'Dirty Headline'; font-weight: normal; font-size: 31px; text-align: center; background: url(/img/{{ fact.title }}.png) center center no-repeat; background-size: contain; float: left; width: 60px; height: 100px; padding: 36px 0; position: relative; right: 5px;">{{ fact.title }}</div>
-              <div style="padding-top: 20px; position: relative; right: 5px;">{{ fact.content }}</div></div>
+              <div style="font-family: 'Dirty Headline'; font-weight: normal; font-size: 31px; text-align: center; background: url(/img/{{ fact.title }}.png) center bottom no-repeat; background-size: contain; float: left; width: 60px; height: 82px; padding: 36px 0 0; position: relative; right: 5px;">{{ fact.title }}</div>
+              <div style="padding-top: 20px; position: relative; right: 0px;">{{ fact.content }}</div></div>
             {% endif %}
           {% endfor %}
           </div>
