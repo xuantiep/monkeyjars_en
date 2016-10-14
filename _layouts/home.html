@@ -21,13 +21,23 @@
  
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    {% for image in page.slider %}
-    <div class="item {% if forloop.index0 == 0 %}active{% endif %}">
-      <img  class="visible-lg" src="/img/bugfree.svg" style="top: 100px; left: 50%; width: 300px; margin-left: 250px; margin-top: 30px; position: absolute;
+  <img  class="visible-lg" src="/img/bugfree.svg" style="z-index: 0; top: 100px; left: 50%; width: 300px; margin-left: 250px; margin-top: 30px; position: absolute;
     -ms-transform: rotate(7deg); /* IE 9 */
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
     transform: rotate(7deg);
       " />
+  <img  class="visible-lg" src="/img/bugfree.svg" style="z-index: 9; opacity: 0; top: 100px; left: 50%; width: 300px; margin-left: 250px; margin-top: 30px; position: absolute;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+      " usemap="#image-map" />
+
+<map name="image-map">
+    <area target="_blank" alt="Facebook" title="Facebook" href="https://www.facebook.com/monkeyjarsplants" coords="87,99,143,145" shape="rect">
+    <area target="_blank" alt="Instagram" title="Instagram" href="https://www.instagram.com/monkey_jars/" coords="143,100,199,146" shape="rect">
+</map>
+    {% for image in page.slider %}
+    <div class="item {% if forloop.index0 == 0 %}active{% endif %}">
       <img src="{{ image.image }}" />
     </div>
     {% endfor %}
