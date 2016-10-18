@@ -148,12 +148,13 @@ footer form input[type="submit"] {font-family: 'BrandonGrotesque-Bold'; width: 1
 .footerbar {color: white; height: 42px; line-height: 35px; background: url('/img/footerbar.png') center center repeat-x; border-top: 3px solid rgba(20,26,0,0.5);}
 .footerbar a {color: white!important;}
 
-.textrow {min-height: 46px; line-height: 1.4em;  text-transform: uppercase; text-align: center; padding: 13px 15px;
+#header .textrow {z-index: 99;}
+#header .textrow .container {padding: 0!important;}
+.textrow {line-height: 1.4em;  text-transform: uppercase; text-align: center; padding: 5px 15px;
 font-family: 'Dirty Headline'; text-transform: uppercase; font-size: 48px; text-shadow: 0px 0px 10px rgba(221,209,193,0.5);}
-
-.absright {width: 200px; float: right; height: 18px; font-family: 'BrandonGrotesque-Regular', sans-serif; font-size: 15px; line-height: 1.5em;}
-.absright > * {float: right; display: block;}
-.absright > * > img {display: block;}
+.absright {width: 300px; float: right; text-align: right; height: 18px; font-family: 'BrandonGrotesque-Regular', sans-serif; font-size: 15px; line-height: 1.5em;}
+.absright > * {display: inline-block;}
+.textrow select {background: transparent; border: 0; text-transform: uppercase; font-family: 'BrandonGrotesque-Bold'; outline: none!important;}
 
 
 .navbar {border-radius: 0px!important; font-size: 31px; line-height: 1.4em; height: 163px;}
