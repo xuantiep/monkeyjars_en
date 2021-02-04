@@ -3,4 +3,4 @@ title: Care tips
 layout: instructions
 ---
 
-Monkey Jars are pretty much maintenance-free. Okay, they do like their drink (only water, though). And by a bit we actually mean quite a lot. If you make sure to give it a good soak on a regular basis, you'll enjoy your plant for years. Monkey Jars can easily survive in the average living room, but the same can't be said for those pesky flies and bugs...
+My family and I are from the tropical rainforests of Borneo and the surrounding area, which is nice and humid just how we like it. I understand that a rainforest might be hard to find in colder countries, but the more similar my new home is to a rainforest the happier I will be. I drink a lot. The soil I am in should always be nice and damp. So please make sure I'm nice and comfy by using a plant sprayer on me and regularly giving me plenty to drink\!
