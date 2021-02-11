@@ -1,5 +1,5 @@
 ---
-title: Plantenspuit
+title: PLANT SPRAY
 order: 11
 ---
 
