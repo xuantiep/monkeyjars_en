@@ -19,11 +19,11 @@ oorsprong:
       My pitchers can stay connected for years, depending on how well I am cared
       for. If I am not given enough water to drink, my pitchers can dry out
       (turn brown) and die.
-  - title: Waar komt de naam Monkey Jars vandaan?
+  - title: Where did the name Monkey Jars come from?
     content: >-
-      De apen die door de jungle slingeren nemen onderweg wel eens een slokje
-      water uit mijn beker. Vandaar de naam ‘Monkey Jars’. Ik word ook wel
-      ‘bekerplant’ genoemd. Maar jij mag ‘Monkey Jars’ zeggen ;-).
+      Monkeys that swing through the jungle occasionally take a sip of water
+      from my pitchers, that's why I was named ‘Monkey Jars’. I am also called
+      ‘pitcher plant’. Feel free to call me ‘Monkey Jars’ ;-).
 water_geven:
   - title: Mag ik je meenemen onder de douche?
     content: >-
