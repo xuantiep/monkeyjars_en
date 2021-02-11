@@ -55,15 +55,15 @@ water_geven:
       Rainwater does not contain chalk, and I am not so fond of chalk. That's
       why it's fine to put me outside during a real downpour of rain. Now and
       again, I'm fine with having some tap water!
-  - title: Hoe weet ik hoeveel water ik moet geven?
+  - title: How do I know how much water to give?
     content: >-
-      Ik houd van aandacht ☺. Kijk daarom goed naar me en voel zo nu en dan aan
-      mijn grond. Als ik niet bruin word en mijn grond een beetje vochtig is dan
-      voel ik me lekker. Als je goede vriendjes met me wilt worden, kijk dan
-      vooral in het begin extra vaak naar me en probeer te ontdekken hoeveel
-      water ik nodig heb. Je kunt mijn bladeren vochtig houden met een
-      plantenspuit. Maar overdrijf het niet, van te veel water worden mijn
-      wortels ziek en ga ik dood.
+      I love being the centre of attention ☺. So make sure to check how I'm
+      doing and feel the soil I'm in. If I am not turning brown and my soil is
+      somewhat damp, then I am happy as can be. To make sure we'll be the best
+      of friends, make sure to check how I'm doing regularly when you first get
+      me and try to develop an idea of how much water I need. You can use a
+      plant sprayer to keep my leaves humid. Please don't overdo it, because too
+      much water is bad for my roots and that could kill me!
 plaats:
   - title: Wat is de beste plek voor mijn Monkey Jars?
     content: >-
