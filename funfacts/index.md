@@ -32,13 +32,13 @@ water_geven:
       Yes, that would be absolutely fantastic! Don’t do it too often though and
       please don't use soap on me because it isn't good for me. I also love
       being left to enjoy a nice and humid bathroom.
-  - title: Moet ik echt water in jouw bekers doen?
+  - title: Do I really need to put water in your pitchers?
     content: >-
-      Nee, als je mij goed verzorgt hoeft dat niet. Mijn stengels kun je zien
-      als een natuurlijke gieter. Als je me genoeg water geeft en de plek waar
-      ik sta niet te droog is, dan vul ik mijn beker gewoon zelf met een laagje
-      water. Afhankelijk van mijn soort vul ik mijn beker tot 1/3e, maar dat
-      hoeft niet altijd zo te zijn.
+      No, if you take good care of me there is no need for that. Think of my
+      stems as an organic sieve. If you give me enough water and the place you
+      put me is not too dry, then I will fill my pitchers with a layer of water
+      on my own. Depending on which variety of me you choose, I usually fill my
+      pitchers to about a third but this is not always the case.
   - title: Hoe komt het dat jouw bekers bruin worden?
     content: >-
       Als mijn bekers bruin worden is er iets mis. Meestal heb ik dan te weinig
