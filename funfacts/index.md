@@ -45,11 +45,11 @@ water_geven:
       too little water or I may be somewhere that is too dry or bright for me.
       If that is the case, then it's important for you to quench my thirst or
       see if you can put me somewhere humid. One thought could be the bathroom!
-  - title: Mag ik de bruine uitgedroogde bekers afknippen?
+  - title: 'Can I cut off the brown, dried-out pitchers?'
     content: >-
-      Ja, de bruine bekers zijn afgestorven. Je mag ze afknippen. Het maakt niet
-      uit waar; je kunt ze direct boven aan de stengel afknippen of onderaan. Ik
-      ga daarna hard mijn best doen om nieuwe bekers te maken.
+      Yes, the brown pitchers have died. You can cut them off. It does not
+      matter where you cut them, whether at the top of the stem or at the
+      bottom. I will then do my best to make new pitchers.
   - title: Moet ik altijd regenwater geven?
     content: >-
       Regenwater bevat geen kalk. Kalk vind ik wat minder lekker. Je mag mij
