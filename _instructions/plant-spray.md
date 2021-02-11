@@ -1,5 +1,5 @@
 ---
-title: PLANT SPRAY
+title: Plant spray
 order: 11
 ---
 
