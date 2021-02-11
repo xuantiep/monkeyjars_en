@@ -74,11 +74,11 @@ plaats:
     content: >-
       I am a real Casanova, because I use the red colour of my pitchers to lure
       insects. The brighter the colours of my pitchers are, the hungrier I am!
-  - title: Wanneer ontstaan er bekers?
+  - title: When do you make pitchers?
     content: >-
-      Ik ben een summer dude; in de wintermaanden groei ik langzaam, maar in de
-      zomer groeien mijn bladeren een stuk sneller en ontstaan er ook nieuwe
-      bekers. De bekers zijn een verlengde van mijn blad.
+      Summer is the season for me. During winter, I grow slowly. In the summer,
+      my leaves grow much faster and I make new pitchers. The pitchers are an
+      extension of my leaves.
   - title: Kan ik mijn Monkey Jars verpotten?
     content: >-
       Ik heb een hekel aan verhuizen. Ik hoop dan ook dat je mij lekker in mijn
