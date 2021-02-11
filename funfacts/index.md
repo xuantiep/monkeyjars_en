@@ -14,11 +14,11 @@ oorsprong:
       in with my nectar. When they land on the edge of my pitcher, they can
       easily slip and fall in. My pitchers are filled with a sticky liquid full
       of digestive enzymes.
-  - title: Blijven de bekers altijd aan de plant vast zitten?
+  - title: Do the pitchers always stay connected to the plant?
     content: >-
-      Mijn bekers kunnen soms wel jaren blijven zitten. Dit hangt vooral af van
-      hoe ik word verzorgd. Als ik te weinig water drink, kunnen de bekers
-      uitdrogen (ze worden bruin) en sterven ze af.
+      My pitchers can stay connected for years, depending on how well I am cared
+      for. If I am not given enough water to drink, my pitchers can dry out
+      (turn brown) and die.
   - title: Waar komt de naam Monkey Jars vandaan?
     content: >-
       De apen die door de jungle slingeren nemen onderweg wel eens een slokje
