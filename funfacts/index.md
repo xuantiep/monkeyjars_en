@@ -70,10 +70,10 @@ plaats:
       Just like in the jungle, I like being somewhere light, but direct sunlight
       is too much for me. During the warm summer months, I love being outdoors
       but I still won't like being in direct sunlight.
-  - title: Waarom zijn jouw bekers rood van kleur?
+  - title: Why are your pitchers red?
     content: >-
-      Ik ben een echte Casanova. Met de rode kleur van mijn bekers lok ik
-      insecten. Hoe feller de kleur van mijn bekers, hoe meer honger ik heb!
+      I am a real Casanova, because I use the red colour of my pitchers to lure
+      insects. The brighter the colours of my pitchers are, the hungrier I am!
   - title: Wanneer ontstaan er bekers?
     content: >-
       Ik ben een summer dude; in de wintermaanden groei ik langzaam, maar in de
