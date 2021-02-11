@@ -18,11 +18,12 @@
                       <div><br />{{ page.content }}<br />&nbsp;</div>
             </div> 
         </div>
-        <div class="row">
+        <div class="row instructions">
           {% for instruction in site.instructions %}
-            <div class="col-lg-3 col-md-4 col-sm-5" style="max-width: 300px; padding: 0;">
+            <div class="col-lg-3 col-md-4 col-sm-5 img" style="max-width: 300px; padding: 0;
+            {% if instruction.order == 9 %}margin-right: 1px {% endif %}">
               <div style="background: url(/img/{{ instruction.order }}.png) center center no-repeat; background-size: contain;
-              {% if instruction.order == 1 %}{% endif %}
+              {% if instruction.order == 12 %}{% endif %}
               {% if instruction.order == 2 %}-ms-transform: rotate(-6deg); -webkit-transform: rotate(-6deg); transform: rotate(-6deg);{% endif %}
               {% if instruction.order == 3 %}{% endif %}
               {% if instruction.order == 4 %}-ms-transform: rotate(-3deg); -webkit-transform: rotate(-3deg); transform: rotate(-3deg);{% endif %}
@@ -32,10 +33,11 @@
               {% if instruction.order == 8 %}-ms-transform: rotate(-6deg); -webkit-transform: rotate(-6deg); transform: rotate(-6deg);{% endif %}
               {% if instruction.order == 9 %}-ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);{% endif %}
               {% if instruction.order == 10 %}{% endif %}              
+              {% if instruction.order == 11 %}-ms-transform: rotate(-6deg); -webkit-transform: rotate(-6deg); transform: rotate(-6deg);{% endif %}
               ">
               <div style="background: url(/img/{{ instruction.order }}.svg) 50% 46% no-repeat; background-size: contain; opacity: 0.85; padding-top:100%;
               {% if instruction.order == 1 %}margin: 0 30%;{% endif %}
-              {% if instruction.order == 2 %}margin: 0 28%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(6deg);{% endif %}
+              {% if instruction.order == 2 %}margin: 0 30%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(6deg);{% endif %}
               {% if instruction.order == 3 %}margin: 0 23%; {% endif %}
               {% if instruction.order == 4 %}margin: 0 31%; -ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);{% endif %}
               {% if instruction.order == 5 %}margin: 0 30%; -ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);{% endif %}
@@ -44,6 +46,8 @@
               {% if instruction.order == 8 %}margin: 0 31%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(6deg);{% endif %}
               {% if instruction.order == 9 %}margin: 0 12%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(6deg);{% endif %}
               {% if instruction.order == 10 %}margin: 0 12%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(6deg);{% endif %}
+              {% if instruction.order == 11 %}margin: 0 25%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(6deg);{% endif %}
+              {% if instruction.order == 12 %}margin: 0 27%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(6deg);{% endif %}
               "></div></div>
             </div>
             <div class="col-lg-3 col-md-8 col-sm-7 text-left" style="padding: 0 15px; margin-top: -30px;">
@@ -58,7 +62,7 @@
             <div style="clear: both;" class="visible-sm visible-md"></div>
             {% endif %}
           {% endfor %}
-            <p><a href="/" class="readmore">BACK</a></p>
+            <p><a href="/" class="readmore">BACK</a><a href="/funfacts" class="readmore">FAQ</a></p>
         </div>
       </div>
     </div>

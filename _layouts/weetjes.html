@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body data-spy="scroll" data-target="#navbar" data-offset="300" class="weetjes" onload="">
+  <div id="nonsplash">
+    <div id="innernonsplash">
+    {% include header.html %}
+    <div id="top" class="intro">
+
+      
+      <div id="faq" class="light">
+        <div class="container  text-left">
+          <h2 class="post-title">Veelgestelde Vragen</h2>
+          <h3>Oorsprong</h3>
+          {% include accordion.html content= page.oorsprong  title="Oorsprong" %}
+          <h3>Water geven</h3>
+          {% include accordion.html content= page.water_geven  title="Water geven" %}
+          <h3>Plaats</h3>
+          {% include accordion.html content= page.plaats  title="Plaats" %}
+          <h3>Plantenvoeding</h3>
+          {% include accordion.html content= page.plantenvoeding  title="Plantenvoeding" %}
+        </div>
+      </div>
+      
+      
+          <div class="light" id="weetjes">
+            <div class="container">
+              <div class="row">
+                  <div class="col-xs-12 text-left">
+                            <h2 class="post-title" style="margin: 0 0 10px;">{{ page.title }}</h2>
+                  </div> 
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-md-3"> 
+                {% for fact in site.facts %}
+                  {% if forloop.index < 5 %}
+                  <div style="overflow: auto; clear: left; text-align: left;">
+                    <div style="font-family: 'Dirty Headline'; font-weight: normal; font-size: 31px; text-align: center; background: url(/img/{{ fact.title }}.png) center bottom no-repeat; background-size: contain; float: left; width: 60px; height: 82px; padding: 36px 0 0; position: relative; right: 5px;">{{ fact.title }}</div>
+                    <div style="padding-top: 20px; position: relative; right: 0px;">{{ fact.content }}</div>
+                  </div>
+                  {% endif %}
+                {% endfor %}
+                </div>
+                <div class="col-lg-3 col-md-3" style="padding-left: 0 10px;"> 
+                {% for fact in site.facts %}
+                  {% if forloop.index > 4 %}
+                  <div style="overflow: auto; clear: left; text-align: left;">
+                    <div style="font-family: 'Dirty Headline'; font-weight: normal; font-size: 31px; text-align: center; background: url(/img/{{ fact.title }}.png) center bottom no-repeat; background-size: contain; float: left; width: 60px; height: 82px; padding: 36px 0 0; position: relative; right: 5px;">{{ fact.title }}</div>
+                    <div style="padding-top: 20px; position: relative; right: 0px;">{{ fact.content }}</div></div>
+                  {% endif %}
+                {% endfor %}
+                </div>
+                <div class="col-lg-6 col-md-6"> 
+                  <img class="monkeyjarweetjes" src="/img/monkeyjars_weetjes.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+    {% include footer.html %}
+</div>
+  </body>
+
+</html>

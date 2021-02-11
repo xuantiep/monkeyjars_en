@@ -84,8 +84,8 @@
       </div>
       <div class="container" style="padding: 0;">
         <div class="row" style="margin: 0; overflow: hidden;">
-          {% for instruction in site.instructions limit:8 %}
-            <div class="col-md-3 col-sm-4 col-xs-6" style="padding: 0; cursor: pointer;" onclick="window.location.href='/instructions';">
+          {% for instruction in site.instructions limit:12 %}
+            <div class="col-md-3 col-sm-4 col-xs-6" style="padding: 0; cursor: pointer;" onclick="window.location.href='/care';">
               <div style="background: url(/img/{{ instruction.order }}.png) center center no-repeat; background-size: contain;
               {% if instruction.order == 1 %}{% endif %}
               {% if instruction.order == 2 %}-ms-transform: rotate(-6deg); -webkit-transform: rotate(-6deg); transform: rotate(-6deg);{% endif %}
@@ -95,6 +95,10 @@
               {% if instruction.order == 6 %}-ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);{% endif %}
               {% if instruction.order == 7 %}{% endif %}
               {% if instruction.order == 8 %}-ms-transform: rotate(-6deg); -webkit-transform: rotate(-6deg); transform: rotate(-6deg);{% endif %}
+              {% if instruction.order == 9 %}-ms-transform: rotate(-6deg); -webkit-transform: rotate(-6deg); transform: rotate(3deg);{% endif %}
+              {% if instruction.order == 10 %}-ms-transform: rotate(-6deg); -webkit-transform: rotate(-6deg); transform: rotate(-3deg);{% endif %}
+              {% if instruction.order == 11 %}-ms-transform: rotate(-6deg); -webkit-transform: rotate(-6deg); transform: rotate(-3deg);{% endif %}
+              {% if instruction.order == 12 %}-ms-transform: rotate(-6deg); -webkit-transform: rotate(-6deg); transform: rotate(-3deg);{% endif %}
               ">
               <div style="background: url(/img/{{ instruction.order }}.svg) 50% 46% no-repeat; background-size: contain; opacity: 0.85; padding-top:100%;
               {% if instruction.order == 1 %}margin: 0 30%;{% endif %}
@@ -105,11 +109,16 @@
               {% if instruction.order == 6 %}margin: 0 30%; -ms-transform: rotate(-3deg); -webkit-transform: rotate(-3deg); transform: rotate(-3deg);{% endif %}
               {% if instruction.order == 7 %}margin: 0 30%; {% endif %}
               {% if instruction.order == 8 %}margin: 0 31%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(6deg);{% endif %}
+              {% if instruction.order == 9 %}margin: 0 15%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(3deg);{% endif %}
+              {% if instruction.order == 10 %}margin: 0 15%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(-3deg);{% endif %}
+              {% if instruction.order == 11 %}margin: 0 28%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(6deg);{% endif %}
+              {% if instruction.order == 12 %}margin: 0 28%; -ms-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(-3deg);{% endif %}
               "></div></div>
             </div>
           {% endfor %}
           </div>
       </div>
+      <p><a href="/funfacts" class="readmore vragen">FAQ</a></p>
     </div>
 
 

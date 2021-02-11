@@ -249,6 +249,7 @@ label {font-weight: normal;}
 #controls a:hover, #controls a:active {color: silver;}
 #closebutton, #prevbutton, #nextbutton {cursor: pointer; }
 
+#care .container .row { display: flex; flex-wrap: wrap; justify-content: center;}
 #care .container .col-md-3:nth-child(1) > div:hover {-ms-transform: rotate(-6deg)!important; -webkit-transform: rotate(-6deg)!important; transform: rotate(-6deg)!important;}
 #care .container .col-md-3:nth-child(2) > div:hover {-ms-transform: rotate(6deg)!important; -webkit-transform: rotate(6deg)!important; transform: rotate(6deg)!important;}
 #care .container .col-md-3:nth-child(3) > div:hover {-ms-transform: rotate(-6deg)!important; -webkit-transform: rotate(-6deg)!important; transform: rotate(-6deg)!important;}
@@ -257,8 +258,32 @@ label {font-weight: normal;}
 #care .container .col-md-3:nth-child(6) > div:hover {-ms-transform: rotate(-6deg)!important; -webkit-transform: rotate(-6deg)!important; transform: rotate(-6deg)!important;}
 #care .container .col-md-3:nth-child(7) > div:hover {-ms-transform: rotate(-6deg)!important; -webkit-transform: rotate(-6deg)!important; transform: rotate(-6deg)!important;}
 #care .container .col-md-3:nth-child(8) > div:hover {-ms-transform: rotate(6deg)!important; -webkit-transform: rotate(6deg)!important; transform: rotate(6deg)!important;}
+#care .container .col-md-3:nth-child(9) > div:hover {-ms-transform: rotate(-6deg)!important; -webkit-transform: rotate(-6deg)!important; transform: rotate(-6deg)!important;}
+#care .container .col-md-3:nth-child(10) > div:hover {-ms-transform: rotate(6deg)!important; -webkit-transform: rotate(6deg)!important; transform: rotate(6deg)!important;}
 
 #wrapall, .navbar > div, #lightbox {background: rgba(230,230,225,0);}
+
+
+.row.instructions { display: flex; flex-wrap: wrap; justify-content: center; width: 106%;}
+.row.instructions > div {margin-top: 2rem;}
+.row.instructions > p {width: 100%;}
+.row.instructions > p .readmore {width: 340px; font-size: 20px;}
+.row.instructions > p .readmore:nth-of-type(2) {transform: rotate(2deg); margin-left:-8rem;}
+
+.readmore.vragen {width: 340px; font-size: 20px;}
+.weetjes #faq { margin-top: 10rem; }
+
+ul.accordion {position: relative; margin:0.5rem 0 2rem; padding-bottom: 0; padding-left: 0; max-width: 80rem;}
+ul.accordion li {border-bottom: 1px solid rgba(0,0,0,0.25); list-style: none; margin-left: 0;}
+ul.accordion li input {display: none;}
+ul.accordion li label {display: block; cursor: pointer; padding: 0.3rem 2.4rem 0.3rem 0; margin: 0; font-size: 18px}
+ul.accordion li div {display: none; padding-bottom: 0.5rem; font-size: 16px; margin-left: 0.5rem; margin-top: 0.2rem;}
+
+ul.accordion li input:checked ~ label {font-style: italic;}
+ul.accordion li input:checked ~ label + div {display: block;}
+ul.accordion li label::before { content: "+"; font-style: normal; font-weight: normal; font-size: 130%; padding: 0; position: absolute; right: 0.5rem; transition: all 0.15s ease-in-out;}
+ul.accordion li input:checked + label::before {transform: rotate(-45deg);}
+
 
 @media all and (max-width: 1700px) {
 .light.extras:before {left: 50%; margin-left: -850px;}
@@ -308,6 +333,7 @@ label {font-weight: normal;}
   .gallery_images > div a:nth-child(3) {display: none;}
   .gallery_images > div a:nth-child(4) {display: none;}
   .gallery_images > div a:nth-child(5) {display: none;}
+  .row.instructions .img {width: 100%; margin: 0 auto;}
 }
 @media all and (max-width: 600px) {
   .mobile {display: inline-block;}
