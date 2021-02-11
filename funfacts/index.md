@@ -79,11 +79,11 @@ plaats:
       Summer is the season for me. During winter, I grow slowly. In the summer,
       my leaves grow much faster and I make new pitchers. The pitchers are an
       extension of my leaves.
-  - title: Kan ik mijn Monkey Jars verpotten?
+  - title: Can I repot my Monkey Jars?
     content: >-
-      Ik heb een hekel aan verhuizen. Ik hoop dan ook dat je mij lekker in mijn
-      vertrouwde potje wil laten zitten. De potgrond is speciaal samengesteld
-      voor mij als vleeseter en ik ben er erg aan gehecht.
+      I hate moving, so I hope that you will let me stay in my familiar pot. The
+      pot soil was specially formulated for me because of my carnivorous nature,
+      and I am really fond of it.
 plantenvoeding:
   - title: Kan ik mijn Monkey Jars kunstmest geven?
     content: >-
