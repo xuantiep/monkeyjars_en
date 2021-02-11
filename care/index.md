@@ -1,9 +1,8 @@
 ---
-title: Verzorging
+title: Care
 layout: instructions
 ---
 
+My family and I are from the tropical rainforests of Borneo and the surrounding area, which is nice and humid just how we like it. I understand that a rainforest might be hard to find in colder countries, but the more similar my new home is to a rainforest the happier I will be.
 
-Mijn familie en ik komen van oorsprong uit het tropisch regenwoud van Borneo en omgeving. Daar is het lekker vochtig en daar houden we van. Ik begrijp dat in de koudere landen een regenwoud ver te zoeken is. Maar hoe meer mijn nieuwe plekje erop lijkt, hoe gelukkiger ik ben. 
-
-Ik ben een stevige drinker. Vooral mijn grond moet altijd lekker vochtig zijn. Verwen mij daarom zo nu en dan met een plantenspuit en geef mij geregeld een flinke slok water! 
+I drink a lot. The soil I am in should always be nice and damp. So please make sure I'm nice and comfy by using a plant sprayer on me and regularly giving me plenty to drink\!
