@@ -39,12 +39,12 @@ water_geven:
       put me is not too dry, then I will fill my pitchers with a layer of water
       on my own. Depending on which variety of me you choose, I usually fill my
       pitchers to about a third but this is not always the case.
-  - title: Hoe komt het dat jouw bekers bruin worden?
+  - title: Why do your pitchers turn brown?
     content: >-
-      Als mijn bekers bruin worden is er iets mis. Meestal heb ik dan te weinig
-      water gekregen of sta ik op een plek die te droog of te licht voor mij is.
-      Het is dan belangrijk dat je mijn dorst lest en kijkt of je mij op een
-      vochtige plek kunt neer zetten. Bijvoorbeeld in de badkamer!
+      If my pitchers turn brown, then something is wrong. I may have been given
+      too little water or I may be somewhere that is too dry or bright for me.
+      If that is the case, then it's important for you to quench my thirst or
+      see if you can put me somewhere humid. One thought could be the bathroom!
   - title: Mag ik de bruine uitgedroogde bekers afknippen?
     content: >-
       Ja, de bruine bekers zijn afgestorven. Je mag ze afknippen. Het maakt niet
