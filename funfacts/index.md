@@ -1,5 +1,5 @@
 ---
-title: FREQUENTLY ASKED QUESTIONS
+title: Funfacts
 layout: weetjes
 oorsprong:
   - title: Where are you from?
