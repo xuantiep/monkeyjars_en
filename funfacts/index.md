@@ -50,11 +50,11 @@ water_geven:
       Yes, the brown pitchers have died. You can cut them off. It does not
       matter where you cut them, whether at the top of the stem or at the
       bottom. I will then do my best to make new pitchers.
-  - title: Moet ik altijd regenwater geven?
+  - title: Do I always need to give you rainwater?
     content: >-
-      Regenwater bevat geen kalk. Kalk vind ik wat minder lekker. Je mag mij
-      daarom prima buiten hangen tijdens een flinke regenbui. Maar ook een plons
-      kraanwater slik ik als zoete koek hoor!
+      Rainwater does not contain chalk, and I am not so fond of chalk. That's
+      why it's fine to put me outside during a real downpour of rain. Now and
+      again, I'm fine with having some tap water!
   - title: Hoe weet ik hoeveel water ik moet geven?
     content: >-
       Ik houd van aandacht ☺. Kijk daarom goed naar me en voel zo nu en dan aan
