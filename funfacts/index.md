@@ -91,10 +91,10 @@ plantenvoeding:
       amount. Any more, and I might get unwell. 1 gram of fertilizer per litre
       water is plenty. Fertilizer can be a great addition, especially if I have
       not been eating many insects.
-  - title: Moet ik mijn Monkey Jars vliegjes te eten geven?
+  - title: Do I need to feed flies to my Monkey Jars?
     content: >-
-      Nee dat hoeft niet, maar mag wel. Ik probeer zelf mijn vliegjes te vangen.
-      Deze verteer ik en daar haal ik weer mineralen uit. Maar als ik jarig ben,
-      lust ik best een extra vliegje!
+      You don't have to, but you are welcome to. I try to catch flies on my own,
+      so that I can digest them and absorb some extra minerals. But if it's my
+      birthday, I won't say no to a fly as a treat!
 ---
 
