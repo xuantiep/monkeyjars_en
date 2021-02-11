@@ -65,11 +65,11 @@ water_geven:
       plant sprayer to keep my leaves humid. Please don't overdo it, because too
       much water is bad for my roots and that could kill me!
 plaats:
-  - title: Wat is de beste plek voor mijn Monkey Jars?
+  - title: Where can I best put my Monkey Jars?
     content: >-
-      Net als in de jungle houd ik van een lichte plek, maar ik kan niet tegen
-      direct zonlicht. In warme zomermaanden vind ik het heerlijk om buiten te
-      zijn, maar zet me dus niet direct in de zon.
+      Just like in the jungle, I like being somewhere light, but direct sunlight
+      is too much for me. During the warm summer months, I love being outdoors
+      but I still won't like being in direct sunlight.
   - title: Waarom zijn jouw bekers rood van kleur?
     content: >-
       Ik ben een echte Casanova. Met de rode kleur van mijn bekers lok ik
