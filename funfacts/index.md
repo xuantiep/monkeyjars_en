@@ -1,5 +1,5 @@
 ---
-title: ORIGINS
+title: FREQUENTLY ASKED QUESTIONS
 layout: weetjes
 oorsprong:
   - title: Where are you from?
@@ -24,6 +24,8 @@ oorsprong:
       Monkeys that swing through the jungle occasionally take a sip of water
       from my pitchers, that's why I was named ‘Monkey Jars’. I am also called
       ‘pitcher plant’. Feel free to call me ‘Monkey Jars’ ;-).
+  - title:
+    content:
 water_geven:
   - title: Mag ik je meenemen onder de douche?
     content: >-
