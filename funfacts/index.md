@@ -85,11 +85,12 @@ plaats:
       pot soil was specially formulated for me because of my carnivorous nature,
       and I am really fond of it.
 plantenvoeding:
-  - title: Kan ik mijn Monkey Jars kunstmest geven?
+  - title: Can I give fertilizer to my Monkey Jars?
     content: >-
-      Ja dat kan. Eens in de twee maanden een heel klein beetje. Anders word ik
-      misselijk. 1 gram per liter water is voldoende. Zeker als ik te weinig
-      insecten heb gegeten, is kunstmest een mooie toevoeging.
+      Yes, that's fine. Once every two months, you can give me a very small
+      amount. Any more, and I might get unwell. 1 gram of fertilizer per litre
+      water is plenty. Fertilizer can be a great addition, especially if I have
+      not been eating many insects.
   - title: Moet ik mijn Monkey Jars vliegjes te eten geven?
     content: >-
       Nee dat hoeft niet, maar mag wel. Ik probeer zelf mijn vliegjes te vangen.
