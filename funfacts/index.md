@@ -1,5 +1,5 @@
 ---
-title: FREQUENTLY ASKED QUESTIONS
+title: ORIGINS
 layout: weetjes
 oorsprong:
   - title: Where are you from?
@@ -7,13 +7,13 @@ oorsprong:
       I am originally from the tropical rainforest of Borneo and the surrounding
       area. It can rain very heavily there! That's why I like having a lot of
       water and high air humidity.
-  - title: Waar groei je in de natuur?
+  - title: Where do you grow in nature?
     content: >-
-      In de natuur groei ik tussen de bomen in de jungle. Voor mij een ideale
-      plek, omdat mijn voedsel bestaat uit kleine vliegjes en insecten. Ik lok
-      ze met mijn nectar. Als de insecten op mijn bekerrand landen, glijden ze
-      makkelijk uit en vallen in mijn beker. Mijn bekers zijn gevuld met een
-      plakkerige vloeistof vol verteringsenzymen.
+      In nature, I grow between the trees in the jungle. It's the perfect place
+      for me, because my diet consists of small flies and insects. I lure them
+      in with my nectar. When they land on the edge of my pitcher, they can
+      easily slip and fall in. My pitchers are filled with a sticky liquid full
+      of digestive enzymes.
   - title: Blijven de bekers altijd aan de plant vast zitten?
     content: >-
       Mijn bekers kunnen soms wel jaren blijven zitten. Dit hangt vooral af van
