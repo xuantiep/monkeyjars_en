@@ -1,5 +1,6 @@
 ---
-title: Frequently asked questions
+title: Fun Facts
+top_title: Frequently asked questions
 layout: weetjes
 oorsprong:
   - title: Where are you from?
